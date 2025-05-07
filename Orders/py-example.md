@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The VirtualStock API allows users to fetch order data using HTTP authentication. This guide explains how to retrieve orders using Python.
+The VirtualStock API allows vendors to fetch order data using HTTP authentication. This guide explains how to retrieve orders using Python.
 
 ## Installation
 
