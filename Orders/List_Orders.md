@@ -2,11 +2,13 @@
 
 **Method:** <span style="color: green;">GET</span>
 
-**Description:** Retrieve a list of all new customer orders one at a time by using limit, offset and status parameters.
+**Description:** Retrieve a list of all new customer orders one at a time by using `status`, `limit` and `offset` parameters.
 
 ## Parameters
 
-status, limit & offset
+- status
+- limit
+- offset
 
 ## Request Example
 
