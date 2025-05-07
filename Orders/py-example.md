@@ -48,7 +48,7 @@ print(orders)
 
 If the request fails, the function captures the exception and prints an error message.
 ### Script
-    """bash
+    ```bash
     Fetch a list of new customer orders from the API.
 
     Args:
@@ -59,7 +59,7 @@ If the request fails, the function captures the exception and prints an error me
     Returns:
         list or None: List of order details or None if an error occurs.
         # Raises an error for bad responses (4xx, 5xx)
-    """
+    ```
 
 ### Python Code:
 
