@@ -1,7 +1,7 @@
 # List Orders
 **Method:** <span style="color: green;">GET</span>
 
-**Description:** Retrieve a list of all customer orders.
+**Description:** Retrieve a list of all customer orders one at a time by using the limit and offset parameters.
 
 ## Parameters
 &nbsp;
