@@ -1,23 +1,23 @@
 # Dispatch an Order
-**Method:** POST
+**Method:** <span style="color: yellow;">POST</span>
 
 **Description:** Dispatch an order to the customer.
-
-## Parameters
-<!-- Add parameters here -->
 
 ## Request Example
 ```json
 {
-    "url": "/orders/dispatch",
-    "headers": {
-        "Authorization": "Bearer <token>",
-        "Content-Type": "application/json"
-    },
-    "body": {
-        "order_id": "12345",
-        "carrier_id": "1"
-    }
+	"items":
+	[
+		{
+			"part_number": "EXAMPLE-SKU-3",
+			"line_ref": "12332599",
+			"quantity": 1,
+			"supplier_dispatch_date": "2024-08-10",
+			"supplier_delivery_date": "2024-08-12",
+			"tracking_number": "abc-1123581321",
+			"carrier": "fastway-au"
+		}
+	]
 }
 ```
 
@@ -25,8 +25,5 @@
 ```json
 {
     "status": 200,
-    "body": {
-        "message": "Order dispatched successfully."
-    }
 }
 ```
