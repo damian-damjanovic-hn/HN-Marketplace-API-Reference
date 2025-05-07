@@ -5,14 +5,12 @@
 
 ## <span style="color: purple;">Request Example</span>
 ```http
-```http
-POST /restapi/v4/orders/<span style="color: red">{{ORDER_URI}}</span>/backorder/ HTTP/1.1
+POST /restapi/v4/orders/{{ORDER_URI}}/backorder/ HTTP/1.1
 Host: api.virtualstock.com
 Content-Length: 663
 ```
 
 ### <span style="color: purple;">Body</span>
-```JSON
 ```json
 {
     "items": [
@@ -39,7 +37,6 @@ Content-Length: 663
 ```
 
 #### Response
-```JSON
 ```json
 {
     "status": 200,
