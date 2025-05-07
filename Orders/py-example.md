@@ -91,7 +91,7 @@ def get_orders(limit=1, offset=0, status="ORDER"):
             auth=HTTPBasicAuth(API_USERNAME, API_PASSWORD),
             headers=headers
         )
-        response.raise_for_status()  # Raises an error for bad responses (4xx, 5xx)
+        response.raise_for_status()
         orders_data = response.json()
 
         if orders_data and "orders" in orders_data:
