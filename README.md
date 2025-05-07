@@ -35,3 +35,7 @@ This API reference aims to provide all the necessary information for developers 
 - **POST** create_product
 - **GET** list_products
 - **PATCH** stock_update
+
+## License
+
+This project is licensed for internal use. Contact the repository owner for more information.
