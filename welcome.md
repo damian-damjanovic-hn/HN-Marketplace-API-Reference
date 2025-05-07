@@ -19,7 +19,7 @@ Please find the relevant API documentation below. You can import these into Post
 
 **Additional Support:**
 
-Below are three common real-life workflows you should implement, though a few other workflows are covered in the provided documentation.
+Below are three common real-life workflows you should implement.
 
 **Workflow 1: Order Processing**
 
@@ -31,7 +31,7 @@ Below are three common real-life workflows you should implement, though a few ot
 | 4   | \[Vendor\] | List available carriers (optional) | Vendor retrieves a list of available carriers for shipping. |
 | 5   | \[Vendor\] | Dispatch Order | Vendor dispatches the order and updates the order status with tracking info. |
 
-**Workflow 2: Order Backordering**
+**Workflow 2: Backorder**
 
 | Step | Company | Request | Description |
 | --- | --- | --- | --- |
@@ -64,14 +64,11 @@ If you have any questions, need test orders, or require further assistance, plea
 
 We look forward to a successful partnership!
 
-Best regards,  
-**<span style="color: black;">Damian Damjanovic</span>** <span style="color: black;">|</span> <span style="color: #0065b9;">Implementation Manager</span>  
-<span style="color: black;">Harvey Norman Online Marketplace</span>  
-**<span style="color: #0065b9;">T :</span>** <span style="color: black;">Direct +61 2 9394 6344</span><span style="color: black;">  
-</span>**<span style="color: #0065b9;">E: [damian.damjanovic@au.harveynorman.com](mailto:damian.damjanovic@au.harveynorman.com)</span>**  
-The eComm Store ACN 145 985 815  
-Address: Unit 3-4, 145-151 Arthur Street, Homebush West, NSW 2140  
-Postal: Locked Bag 2 Silverwater BC NSW 1811  
-<img border="0" width="329" height="41" src=":/16079cb4243b4062972b2bdc1784c2f6" style="height: .427in; width: 3.427in;" alt="HN-DOM-JM_signature" v:shapes="Picture_x0020_1" class="jop-noMdConv">  
-[<span style="color: #595959;">www.harveynorman.com.au</span>](http://www.harveynorman.com.au/) <span style="color: #595959;">II</span> [<span style="color: #595959;">www.domayne.com.au</span>](http://www.domayne.com.au/) <span style="color: #595959;">II</span> [<span style="color: #595959;">www.joycemayne.com.au</span>](http://www.joycemayne.com.au/)  
-<br/>**<span style="color: #00b050;">Please consider the environment before printing this email</span>**
+Best regards,
+**<span style="color: black;">Damian Damjanovic</span>** <span style="color: black;">|</span> <span style="color: #0065b9;">Implementation Manager</span>
+<span style="color: black;">Harvey Norman Online Marketplace</span>
+**<span style="color: #0065b9;">T :</span>** <span style="color: black;">Direct +61 2 9394 6344</span><span style="color: black;">
+</span>**<span style="color: #0065b9;">E: [damian.damjanovic@au.harveynorman.com](mailto:damian.damjanovic@au.harveynorman.com)</span>**
+The eComm Store ACN 145 985 815
+Address: Unit 3-4, 145-151 Arthur Street, Homebush West, NSW 2140
+Postal: Locked Bag 2 Silverwater BC NSW 1811
