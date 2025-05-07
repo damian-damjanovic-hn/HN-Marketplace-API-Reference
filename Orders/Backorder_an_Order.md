@@ -3,14 +3,14 @@
 
 **Method:** POST
 
-## Request Example
+## Request Example (HTTP)
 ```http
 POST /restapi/v4/orders/<ORDER_URI>/backorder/ HTTP/1.1
 Host: api.virtualstock.com
 Content-Length: 663
 ```
 
-#### Body
+#### Body (JSON)
 ```json
 {
     "items": [
@@ -36,7 +36,7 @@ Content-Length: 663
 }
 ```
 
-#### Response
+#### Response (JSON)
 ```json
 {
     "status": 200,
