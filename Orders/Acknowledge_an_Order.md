@@ -43,9 +43,7 @@ Content-Length: 497
 **Response (JSON)**
 ```json
 {
-    "status": 200,
-    "body": {
-        "message": "Order acknowledged successfully."
+    "status": 200
     }
 }
 ```
