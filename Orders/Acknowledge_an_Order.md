@@ -5,9 +5,9 @@
 
 **Body**
 
-## Request Example
+## Request Example (HTTP)
 ```http
-POST /v4/orders/uri/acknowledge/ HTTP/1.1
+POST /v4/orders/<<ORDER_URI>>/acknowledge/ HTTP/1.1
 Host: api.virtualstock.comrestapi
 Content-Length: 498
 ```
