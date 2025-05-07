@@ -65,7 +65,8 @@ If you have any questions, need test orders, or require further assistance, plea
 We look forward to a successful partnership!
 
 Best regards,
-**<span style="color: black;">Damian Damjanovic</span>** <span style="color: black;">|</span> <span style="color: #0065b9;">Implementation Manager</span>
+**<span style="color: black;">Damian Damjanovic</span>** <span style="color: black;">|</span>
+<span style="color: #0065b9;">Implementation Manager</span>
 <span style="color: black;">Harvey Norman Online Marketplace</span>
 **<span style="color: #0065b9;">T :</span>** <span style="color: black;">Direct +61 2 9394 6344</span><span style="color: black;">
 </span>**<span style="color: #0065b9;">E: [damian.damjanovic@au.harveynorman.com](mailto:damian.damjanovic@au.harveynorman.com)</span>**
