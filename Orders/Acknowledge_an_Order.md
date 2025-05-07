@@ -3,14 +3,17 @@
 
 **Description:** Acknowledge the receipt of a new customer order.
 
-## Parameters
-<!-- Add parameters here -->
+**Body**
 
 ## Request Example
 ```http
 POST /v4/orders/uri/acknowledge/ HTTP/1.1
 Host: api.virtualstock.comrestapi
 Content-Length: 498
+```
+
+### Body
+```json
 
 {
     "items": [
