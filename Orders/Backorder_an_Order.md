@@ -5,7 +5,7 @@
 
 ## Request Example
 ```http
-POST /restapi/v4/orders/<ORDER_URI>/backorder/ HTTP/1.1
+POST /restapi/v4/orders/`<ORDER_URI>`/backorder/ HTTP/1.1
 Host: api.virtualstock.com
 Content-Length: 663
 ```
