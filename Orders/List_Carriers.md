@@ -15,18 +15,11 @@ Authorization: Basic *****
 
 ## Response
 ```json
-{
-    "status": 200,
-    "body": [
+[
     {
         "id": 124,
         "slug": "australia-post",
         "name": "Australia Post"
-    },
-    {
-        "id": 964,
-        "slug": "dhl-supply-chain-au",
-        "name": "DHL Australia"
     },
     {
         "id": 114,
@@ -37,7 +30,6 @@ Authorization: Basic *****
         "id": 184,
         "slug": "fastway-au",
         "name": "Aramex Australia"
-    },
+    }
 ]
-}
 ```
