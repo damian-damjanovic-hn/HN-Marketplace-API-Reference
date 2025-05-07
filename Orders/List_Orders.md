@@ -45,7 +45,7 @@ Authorization: Basic *****
             "items": [
                 {
                     "url": "https://www.the-edge.io/restapi/v4/items/81225828/",
-                    "part_number": "A-OCH-MLD-WH",
+                    "part_number": "SKU123",
                     "retailer_sku_reference": "SKU123",
                     "supplier_sku_reference": "SKU123",
                     "line_reference": "11996227",
