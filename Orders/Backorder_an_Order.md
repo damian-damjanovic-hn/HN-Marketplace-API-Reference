@@ -1,16 +1,16 @@
 # Backorder an Order
+**Method:** ``POST``
+
 **Description:** Mark an order as backordered.
 
-**Method:** POST
-
-## Request Example (HTTP)
+## Request Example ``HTTP``
 ```http
 POST /restapi/v4/orders/<ORDER_URI>/backorder/ HTTP/1.1
 Host: api.virtualstock.com
 Content-Length: 663
 ```
 
-#### Body (JSON)
+### Body ``JSON``
 ```json
 {
     "items": [
@@ -36,7 +36,7 @@ Content-Length: 663
 }
 ```
 
-#### Response (JSON)
+#### Response ``JSON``
 ```json
 {
     "status": 200,
