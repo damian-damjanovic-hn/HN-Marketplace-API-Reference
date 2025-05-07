@@ -8,9 +8,9 @@
 
 ## Request Example
 ```http
-GET /restapi/v4/order-tracking-carriers/?limit=1000 HTTP/1.1
+GET /restapi/v4/order-tracking-carriers/ HTTP/1.1
 Host: api.virtualstock.com
-Authorization: Basic your-api-key
+Authorization: Basic *****
 ```
 
 ## Response
