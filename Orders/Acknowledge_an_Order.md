@@ -45,5 +45,4 @@ Content-Length: 497
 {
     "status": 200
     }
-}
 ```
