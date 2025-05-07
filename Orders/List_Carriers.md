@@ -3,9 +3,6 @@
 
 **Description:** Retrieve a list of available carriers for order dispatch.
 
-## Parameters
-<!-- Add parameters here -->
-
 ## Request Example
 ```http
 GET /restapi/v4/order-tracking-carriers/ HTTP/1.1
