@@ -47,17 +47,7 @@ print(orders)
 ### Error Handling
 
 If the request fails, the function captures the exception and prints an error message.
-
-### Python Code:
-
-```python
-import requests
-
-API_URL = "https://api.virtualstock.com/restapi/v4/orders/"
-API_USERNAME = "your_username"
-API_PASSWORD = "your_password"
-
-def get_orders(limit=1, offset=0, status="ORDER"):
+### Script
     """
     Fetch a list of new customer orders from the API.
 
@@ -69,6 +59,18 @@ def get_orders(limit=1, offset=0, status="ORDER"):
     Returns:
         list or None: List of order details or None if an error occurs.
     """
+
+### Python Code:
+
+```python
+import requests
+
+API_URL = "https://api.virtualstock.com/restapi/v4/orders/"
+API_USERNAME = "your_username"
+API_PASSWORD = "your_password"
+
+def get_orders(limit=1, offset=0, status="ORDER"):
+
     params = {
         "limit": limit,
         "offset": offset,
