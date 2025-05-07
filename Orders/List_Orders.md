@@ -6,9 +6,12 @@
 
 ## Parameters
 
-- status
-- limit
-- offset
+```shell
+limit=1
+offset=1
+status=ORDER
+
+```
 
 ## Request Example
 
