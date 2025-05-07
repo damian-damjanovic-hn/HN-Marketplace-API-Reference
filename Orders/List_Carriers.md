@@ -7,13 +7,10 @@
 <!-- Add parameters here -->
 
 ## Request Example
-```json
-{
-    "url": "/carriers",
-    "headers": {
-        "Authorization": "Bearer <token>"
-    }
-}
+```http
+GET /restapi/v4/order-tracking-carriers/?limit=1000 HTTP/1.1
+Host: api.virtualstock.com
+Authorization: Basic aG5hdV9obnRlc3QyX3Jlc3RhcGk6VDktQzE9RDI=
 ```
 
 ## Response
@@ -21,12 +18,6 @@
 {
     "status": 200,
     "body": [
-    {
-        "id": 33,
-        "slug": "aramex",
-        "name": "Aramex"
-    },
-
     {
         "id": 124,
         "slug": "australia-post",
