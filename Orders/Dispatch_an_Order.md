@@ -23,6 +23,6 @@
 ## Response
 ```json
 {
-    "status": 200,
+    "status": 200
 }
 ```
