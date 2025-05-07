@@ -10,7 +10,7 @@ Host: api.virtualstock.comrestapi
 Content-Length: 498
 ```
 
-### Body (JSON)
+**Body (JSON)**
 ```json
 
 {
@@ -38,7 +38,7 @@ Content-Length: 498
 
 ```
 
-## Response (JSON)
+**Response (JSON)**
 ```json
 {
     "status": 200,
