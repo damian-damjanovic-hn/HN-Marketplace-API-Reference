@@ -5,9 +5,11 @@
 
 ## Request Example (HTTP)
 ```http
-POST /v4/orders/<<ORDER_URI>>/acknowledge/ HTTP/1.1
-Host: api.virtualstock.comrestapi
-Content-Length: 498
+POST /restapi/v4/orders/<<ORDER_URI>>/acknowledge/ HTTP/1.1
+Host: api.virtualstock.com
+Content-Type: application/json
+Authorization: Basic *****
+Content-Length: 497
 ```
 
 **Body (JSON)**
