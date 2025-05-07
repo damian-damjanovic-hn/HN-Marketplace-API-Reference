@@ -31,7 +31,17 @@ Below are three common real-life workflows you should implement.
 | 4   | \[Vendor\] | List available carriers (optional) | Vendor retrieves a list of available carriers for shipping. |
 | 5   | \[Vendor\] | Dispatch Order | Vendor dispatches the order and updates the order status with tracking info. |
 
-**Workflow 2: Backorder**
+**Workflow 2: Order Cancellation**
+
+| Step | Company | Request | Description |
+| --- | --- | --- | --- |
+| 1   | Harvey Norman | Create new order | Harvey Norman creates a new order and sends it to the vendor. |
+| 2   | \[Vendor\] | List your orders | Vendor retrieves the list of new orders using the API. |
+| 3   | \[Vendor\] | Acknowledge Order | Vendor acknowledges receipt of the order, confirming they will process it. |
+| 5   | Harvey Norman | Request Cancellation | Harvey Norman requests cancellation of the order. |
+| 4   | \[Vendor\] | Acknowledge Cancellation | Vendor acknowledges the cancellation request. |
+
+**Workflow 3: Backorder**
 
 | Step | Company | Request | Description |
 | --- | --- | --- | --- |
@@ -41,16 +51,6 @@ Below are three common real-life workflows you should implement.
 | 5   | \[Vendor\] | Backorder an Order | Vendor marks the order as backordered if the item is not immediately available. |
 | 4   | \[Vendor\] | List available carriers (optional) | Vendor retrieves a list of available carriers for shipping. |
 | 6   | \[Vendor\] | Dispatch Order | Vendor dispatches the order once the item is back in stock and updates the order status with tracking info. |
-
-**Workflow 3: Order Cancellation**
-
-| Step | Company | Request | Description |
-| --- | --- | --- | --- |
-| 1   | Harvey Norman | Create new order | Harvey Norman creates a new order and sends it to the vendor. |
-| 2   | \[Vendor\] | List your orders | Vendor retrieves the list of new orders using the API. |
-| 3   | \[Vendor\] | Acknowledge Order | Vendor acknowledges receipt of the order, confirming they will process it. |
-| 5   | Harvey Norman | Request Cancellation | Harvey Norman requests cancellation of the order. |
-| 4   | \[Vendor\] | Acknowledge Cancellation | Vendor acknowledges the cancellation request. |
 
 **Best Practices:**
 
@@ -63,6 +63,7 @@ Below are three common real-life workflows you should implement.
 If you have any questions, need test orders, or require further assistance, please do not hesitate to reach out to me directly.
 
 We look forward to a successful partnership!
+
 
 
 <span style="color: #0065b9 !important;">Kind regards,</span>
