@@ -8,12 +8,12 @@
 {
     "items": [
         {
-            "part_number": "EXAMPLE-SKU-3",
-            "line_ref": "12332599",
+            "part_number": "SKU123",
+            "line_ref": "11996227",
             "quantity": 1,
             "supplier_dispatch_date": "2024-08-10",
             "supplier_delivery_date": "2024-08-12",
-            "tracking_number": "abc-1123581321",
+            "tracking_number": "abc-12345",
             "carrier": "fastway-au"
         }
     ]
@@ -23,6 +23,6 @@
 ## Response
 ```json
 {
-    "status": 200
+    "status_code": 200
 }
 ```
