@@ -21,10 +21,32 @@
 {
     "status": 200,
     "body": [
-        {
-            "carrier_id": "1",
-            "name": "Carrier One"
-        }
-    ]
+    {
+        "id": 33,
+        "slug": "aramex",
+        "name": "Aramex"
+    },
+
+    {
+        "id": 124,
+        "slug": "australia-post",
+        "name": "Australia Post"
+    },
+    {
+        "id": 964,
+        "slug": "dhl-supply-chain-au",
+        "name": "DHL Australia"
+    },
+    {
+        "id": 114,
+        "slug": "tnt-au",
+        "name": "TNT Australia"
+    },
+    {
+        "id": 184,
+        "slug": "fastway-au",
+        "name": "Aramex Australia"
+    },
+]
 }
 ```
