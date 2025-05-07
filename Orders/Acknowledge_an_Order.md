@@ -44,5 +44,5 @@ Content-Length: 497
 ```json
 {
     "status": 200
-    }
+}
 ```
