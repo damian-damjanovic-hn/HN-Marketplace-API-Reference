@@ -5,11 +5,15 @@
 
 ## Request Example
 ```http
-POST /restapi/v4/orders/{ORDER_URI}/cancel_acknowledge/ HTTP/1.1
+POST /restapi/v4/orders/<<ORDER_URI>>/cancel_acknowledge/ HTTP/1.1
 Host: api.virtualstock.com
 Content-Type: application/json
+Authorization: Basic ***
 Content-Length: 132
+```
 
+### Body (JSON)
+```json
 {
 	"items":
 	[
@@ -23,7 +27,7 @@ Content-Length: 132
 }
 ```
 
-## Response
+### Response
 ```json
 {
     "status": 200
