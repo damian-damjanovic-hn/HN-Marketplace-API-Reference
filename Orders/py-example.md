@@ -8,7 +8,7 @@ The VirtualStock API allows users to fetch order data securely using HTTP authen
 
 Ensure you have Python installed along with the `requests` library:
 
-```
+```bash
 pip install requests
 ```
 
@@ -50,7 +50,7 @@ If the request fails, the function captures the exception and prints an error me
 
 ### Python Code:
 
-```
+```python
 import requests
 
 API_URL = "https://api.virtualstock.com/restapi/v4/orders/"
