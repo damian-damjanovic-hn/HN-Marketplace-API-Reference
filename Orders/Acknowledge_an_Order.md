@@ -3,8 +3,6 @@
 
 **Description:** Acknowledge the receipt of a new customer order.
 
-**Body**
-
 ## Request Example (HTTP)
 ```http
 POST /v4/orders/<<ORDER_URI>>/acknowledge/ HTTP/1.1
@@ -12,7 +10,7 @@ Host: api.virtualstock.comrestapi
 Content-Length: 498
 ```
 
-### Body
+### Body (JSON)
 ```json
 
 {
@@ -40,7 +38,7 @@ Content-Length: 498
 
 ```
 
-## Response
+## Response (JSON)
 ```json
 {
     "status": 200,
