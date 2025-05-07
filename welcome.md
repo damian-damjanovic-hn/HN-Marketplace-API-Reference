@@ -64,12 +64,16 @@ If you have any questions, need test orders, or require further assistance, plea
 
 We look forward to a successful partnership!
 
-Best regards,
-**<span style="color: black;">Damian Damjanovic</span>** <span style="color: black;">|</span>
-<span style="color: #0065b9;">Implementation Manager</span>
-<span style="color: black;">Harvey Norman Online Marketplace</span>
-**<span style="color: #0065b9;">T :</span>** <span style="color: black;">Direct +61 2 9394 6344</span><span style="color: black;">
-</span>**<span style="color: #0065b9;">E: [damian.damjanovic@au.harveynorman.com](mailto:damian.damjanovic@au.harveynorman.com)</span>**
-The eComm Store ACN 145 985 815
-Address: Unit 3-4, 145-151 Arthur Street, Homebush West, NSW 2140
-Postal: Locked Bag 2 Silverwater BC NSW 1811
+
+<span style="color: #0065b9 !important;">Kind regards,</span>
+
+**<span style="color: black !important;">Damian Damjanovic</span>** <span style="color: black !important;">|</span> <span style="color: #0065b9 !important;">Implementation Manager</span>
+
+<span style="color: black !important;">Harvey Norman Online Marketplace</span>
+
+**<span style="color: #0065b9 !important;">T :</span>** <span style="color: black !important;">Direct +61 2 9394 6344</span><span style="color: black !important;">  
+</span>**<span style="color: #0065b9 !important;">E: <ins><span style="color: blue !important;">damian.damjanovic@au.harveynorman.com</span></ins></span>**
+
+<span style="color: inherit;">The eComm Store ACN 145 985 815  
+Address: Unit 3-4, 145-151 Arthur Street, Homebush West, NSW 2140  
+Postal: Locked Bag 2 Silverwater BC NSW 1811</span>
