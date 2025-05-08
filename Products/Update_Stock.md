@@ -7,7 +7,7 @@
 ## Request Example
 
 ```http
-PATCH /api/v4/products/<product_rest_id>/ HTTP/1.1
+PATCH /api/v4/products/55423544/ HTTP/1.1
 Host: api.virtualstock.com
 Content-Length: 106
 ```
