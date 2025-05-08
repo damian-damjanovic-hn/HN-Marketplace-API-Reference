@@ -1,0 +1,195 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Magento 2 Product Data Model",
+    "type": "object",
+    "properties": {
+        "gcc_code": {
+            "type": "string",
+            "description": "Group, Category, and Class mapping for the product"
+        },
+        "part_number": {
+            "type": "string",
+            "maxLength": 15,
+            "description": "Supplier product code, unique"
+        },
+        "short_description": {
+            "type": "string",
+            "maxLength": 255,
+            "description": "Name of the product"
+        },
+        "description": {
+            "type": "string",
+            "maxLength": 5000,
+            "description": "Detailed description of the product"
+        },
+        "def_warranty_manufacture": {
+            "type": "string",
+            "enum": [
+                "12",
+                "24",
+                "36",
+                "48",
+                "60",
+                "72",
+                "84",
+                "96",
+                "108",
+                "120",
+                "No Warranty"
+            ],
+            "description": "Manufacturer warranty in months (dropdown list)"
+        },
+        "warranty_type": {
+            "type": "string",
+            "enum": [
+                "REPAIR",
+                "REPLACE"
+            ],
+            "default": "REPAIR",
+            "description": "Warranty type must be one of: REPAIR or REPLACE"
+        },
+        "supplier_free_stock": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 0,
+            "description": "Supplier's available stock (not null or negative)"
+        },
+        "hn_buy_price": {
+            "type": "number",
+            "description": "Total cost to Retailer (excluding GST)"
+        },
+        "rrp": {
+            "type": "number",
+            "description": "Recommended retail price (including GST)"
+        },
+        "image": {
+            "type": "string",
+            "format": "uri",
+            "description": "Primary image of the product"
+        },
+        "sap_article_ID": {
+            "type": "string",
+            "maxLength": 6,
+            "description": "Retailer's unique product ID"
+        },
+        "barcode": {
+            "type": "string",
+            "maxLength": 14,
+            "description": "GTIN (barcode)"
+        },
+        "model": {
+            "type": "string",
+            "maxLength": 40,
+            "description": "Manufacturer's model number"
+        },
+        "def_general_brand": {
+            "type": "string",
+            "description": "Brand (single value for Magento 2 compatibility)"
+        },
+        "other_brand": {
+            "type": "string",
+            "maxLength": 40,
+            "description": "Other brand (manual entry)"
+        },
+        "second_line_short_description": {
+            "type": "string",
+            "maxLength": 40,
+            "description": "2nd line description (if needed)"
+        },
+        "def_general_maincolour": {
+            "type": "string",
+            "description": "Primary colour of the product (single value)"
+        },
+        "country_of_manufacture": {
+            "type": "string",
+            "description": "Country of origin"
+        },
+        "def_dimension_prodheight": {
+            "type": "number",
+            "description": "Product height in cm"
+        },
+        "def_dimension_prodwidth": {
+            "type": "number",
+            "description": "Product width in cm"
+        },
+        "def_dimension_proddepth": {
+            "type": "number",
+            "description": "Product depth in cm"
+        },
+        "def_general_packcontents": {
+            "type": "string",
+            "maxLength": 1000,
+            "description": "Box contents"
+        },
+        "def_dimension_packheight": {
+            "type": "number",
+            "description": "Package height in cm"
+        },
+        "def_dimension_packwidth": {
+            "type": "number",
+            "description": "Package width in cm"
+        },
+        "def_dimension_packdepth": {
+            "type": "number",
+            "description": "Package depth in cm"
+        },
+        "package_gross_weight": {
+            "type": "number",
+            "description": "Package weight in Kg"
+        },
+        "supplier_comments": {
+            "type": "string",
+            "maxLength": 240,
+            "description": "Supplier comments"
+        },
+        "link_youtube": {
+            "type": "string",
+            "format": "uri",
+            "description": "Product video link"
+        },
+        "free_stock": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 0,
+            "description": "Available stock (not null or negative)"
+        },
+        "invent_status": {
+            "type": "string",
+            "description": "Inventory status (single value for Magento 2 compatibility)"
+        },
+        "low_inv_threshold": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Low inventory threshold (not null or negative)"
+        },
+        "open_orders": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Open orders (not null or negative)"
+        },
+        "tax_class_id": {
+            "type": "string",
+            "description": "Tax class in Australia (e.g., '2' for 10% GST)"
+        },
+        "additional_images": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "format": "uri"
+            },
+            "description": "Additional images"
+        }
+    },
+    "required": [
+        "gcc_code",
+        "part_number",
+        "short_description",
+        "description",
+        "def_warranty_manufacture",
+        "warranty_type",
+        "supplier_free_stock",
+        "hn_buy_price",
+        "image",
+        "tax_class_id"
+    ]
+}
