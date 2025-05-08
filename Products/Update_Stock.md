@@ -25,6 +25,8 @@ Content-Length: 106
 
 ## Response
 
+***Status: 200 OK***
+
 ```json
 {
     "url": "https://api.virtualstock.com/api/v4/products/55423544/",
