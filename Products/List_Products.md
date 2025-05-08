@@ -15,9 +15,9 @@ GET /api/v4/products?part_number=SKU-123456 HTTP/1.1
 Host: api.virtualstock.com
 ```
 
-***Status Code: 200***
-
 ## Response
+
+***Status Code: 200***
 
 ```json
 {
