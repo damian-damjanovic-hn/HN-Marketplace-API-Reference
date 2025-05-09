@@ -1,0 +1,147 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "header": {
+            "type": "string"
+        },
+        "invoice_number": {
+            "type": "string"
+        },
+        "invoice_date": {
+            "type": "string",
+            "format": "date"
+        },
+        "due_date": {
+            "type": "string",
+            "format": "date"
+        },
+        "supplier": {
+            "$ref": "#/definitions/Supplier"
+        },
+        "customer": {
+            "$ref": "#/definitions/Customer"
+        },
+        "items": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/Item"
+            }
+        },
+        "item_subtotals": {
+            "$ref": "#/definitions/ItemSubtotals"
+        }
+    },
+    "definitions": {
+        "Supplier": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "address": {
+                    "type": "string"
+                },
+                "city": {
+                    "type": "string"
+                },
+                "abn": {
+                    "type": "string",
+                    "pattern": "^[0-9]{11}$"
+                },
+                "email": {
+                    "type": "string",
+                    "format": "email"
+                }
+            }
+        },
+        "Customer": {
+            "type": "object",
+            "properties": {
+                "bill_to": {
+                    "type": "string"
+                },
+                "address": {
+                    "type": "string"
+                },
+                "phone": {
+                    "type": "string",
+                    "pattern": "^[0-9]{10,15}$"
+                },
+                "email": {
+                    "type": "string",
+                    "format": "email"
+                }
+            }
+        },
+        "AdditionalCharge": {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "type": "string"
+                },
+                "amount": {
+                    "type": "number"
+                }
+            }
+        },
+        "Item": {
+            "type": "object",
+            "properties": {
+                "supplier_sku": {
+                    "type": "string"
+                },
+                "customer_sku": {
+                    "type": "string"
+                },
+                "quantity": {
+                    "type": "number"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "unit_cost_price_ex_tax": {
+                    "type": "number"
+                },
+                "tax_rate": {
+                    "type": "number"
+                },
+                "additional_charges": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/AdditionalCharge"
+                    }
+                },
+                "item_total": {
+                    "type": "number"
+                },
+                "unit_cost_price": {
+                    "type": "number"
+                },
+                "tax": {
+                    "type": "number"
+                },
+                "sub_item_total": {
+                    "type": "number"
+                }
+            }
+        },
+        "ItemSubtotals": {
+            "type": "object",
+            "properties": {
+                "subitem_total": {
+                    "type": "number"
+                },
+                "additional_charges_item_total": {
+                    "type": "number"
+                },
+                "gst": {
+                    "type": "number"
+                },
+                "invoice_total": {
+                    "type": "number"
+                }
+            }
+        }
+    }
+}
